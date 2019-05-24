@@ -1,0 +1,58 @@
+.app2-container {
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+.app2-square {
+    height: 90px;
+    line-height: 90px;
+    width: 70px;
+    background-color: green;
+    position: absolute;
+    left: calc(50% - 35px);
+}
+
+.app2-btn {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-size: 15px;
+    color: green;
+    outline: none;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 35px);
+    padding: 0px 5px;
+}
+
+.app2-enter {
+    opacity: 0;
+    transform: translateX(100%);
+    background-color: green;
+}
+
+.app2-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 5000ms ease;
+    background-color: green;
+}
+
+.app2-exit {
+    opacity: 1;
+    transform: translateX(0);
+    background-color: blue;
+}
+
+.app2-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 5000ms ease;
+    background-color: blue;
+}
+

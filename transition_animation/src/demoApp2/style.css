@@ -1,0 +1,55 @@
+.app1-container {
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+.app1-square {
+    height: 90px;
+    width: 75px;
+    background-color: green;
+    margin: 10px auto;
+}
+
+.app1-btn {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-size: 15px;
+    color: green;
+    outline: none;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 35px);
+}
+
+.app1-enter {
+    /*初始透明度为0*/
+    opacity: 0;
+    /*初始偏移量为100%*/
+    transform: translateX(100%);
+}
+
+.app1-enter-active {
+    /*随后透明度为1*/
+    opacity: 1;
+    /*随后偏移量回归原位*/
+    transform: translateX(0);
+    /*这个移动过程我们做个动画，动画持续时长500毫秒*/
+    transition: all 500ms ease;
+}
+
+.app1-exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.app1-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 500ms ease;
+}

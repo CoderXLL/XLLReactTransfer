@@ -1,0 +1,45 @@
+.second-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.second-title {
+    padding-top: 30px;
+    height: 50px;
+    line-height: 20px;
+}
+
+.second-popBtn {
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid green;
+    box-shadow: 10px 10px 10px green;
+    margin: 10px 15px;
+}
+
+.second-popBtn:hover {
+    outline: none;
+}
+
+.second-pushBtn {
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid green;
+    box-shadow: 10px 10px 10px green;
+    margin: 10px 15px;
+}
+
+.second-pushBtn:hover {
+    outline: none;
+}
